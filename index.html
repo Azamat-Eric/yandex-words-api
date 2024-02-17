@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yandex.Dictionary API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <input type="text" id="text" required placeholder="Введите слова...">
+        <button onclick="getWord()">Check</button><br>
+    </section>
+    <div id="results">
+        <div id="card">
+            <div id="user-word">Ваш текст: </div>
+            <div id="pos">Сөз табы: </div>
+            <div id="synonyms-div">Синонимы: </div>
+            <ul id="sinonyms">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
